@@ -51,7 +51,7 @@ Sweeps - kein manipuliertes "Baseline scheitert"-Beispiel gefunden, obwohl
 gezielt danach gesucht wurde). Konsistent mit `constraint-programming-demo`s
 eigenem Fund in der ersten Linie (~1,7× allein durch Kapazitätspropagation).
 Auf einer größeren Instanz spart die Propagation dennoch 11.152 unnötig
-besuchte Knoten (16.072 → 4.920) bei exakt gleichem bewiesenem Optimum.
+besuchte Knoten (16.073 → 4.921) bei exakt gleichem bewiesenem Optimum.
 
 ## Verifikation
 
@@ -100,6 +100,4 @@ pytest tests/ -v
 
 ---
 
-Teil des [Operations-Research-Demo-Portfolios](https://sebastianhanisch.net/demos.html) von
-[Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning.
-Interesse an einer maßgeschneiderten Lösung? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html).
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Exakte Suche erklärt: Rucksack und Cutting Stock](https://sebastianhanisch.net/konzepte-exakte-suche.html).
